@@ -27,6 +27,7 @@
         <scene sceneID="8Bj-qZ-cHJ">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="LrY-Ls-5vg" sceneMemberID="viewController">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Nif-6B-JJ9">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>

@@ -7,12 +7,38 @@
 //
 
 #import "AppDelegate.h"
+#import "CRGradientNavigationBar.h"
+#import "MainViewController.h"
+#import "UIColor+Utilities.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
+{    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window setTintColor:[UIColor colorWithHex:0x24CA8A]];
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithNavigationBarClass:[CRGradientNavigationBar class] toolbarClass:nil];
+    
+    UIColor *firstColor = [UIColor colorWithHex:0x24CA8A];
+    UIColor *secondColor = [UIColor colorWithHex:0x24CA8A];
+    
+    NSArray *colors = [NSArray arrayWithObjects:firstColor, secondColor, nil];
+    
+    [[CRGradientNavigationBar appearance] setBarTintGradientColors:colors];
+    [[navigationController navigationBar] setTranslucent:NO];
+    
+    [[CRGradientNavigationBar appearance] setTitleTextAttributes:@{ NSForegroundColorAttributeName : [UIColor whiteColor] }];
+    
+    MainViewController *viewController = [[MainViewController alloc] init];
+    [navigationController setViewControllers:@[viewController]];
+    
+    [self.window setRootViewController:navigationController];
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

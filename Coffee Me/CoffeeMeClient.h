@@ -10,4 +10,6 @@
 
 @interface CoffeeMeClient : AFHTTPClient
 
+- (void)enqueueUserRequestWithMethod:(NSString *)method Path:(NSString *)path parameters:(NSDictionary *)parameters resultClass:(Class)resultClass;
+
 @end

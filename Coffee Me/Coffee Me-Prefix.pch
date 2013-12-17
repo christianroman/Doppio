@@ -12,5 +12,7 @@
 
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <MobileCoreServices/MobileCoreServices.h>
     #import <Foundation/Foundation.h>
 #endif

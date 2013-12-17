@@ -1,3 +1,6 @@
-[submodule "Libraries/AFNetworking"]
-	path = Libraries/AFNetworking
-	url = https://github.com/AFNetworking/AFNetworking.git
+[submodule "Libraries/Mantle"]
+	path = Libraries/Mantle
+	url = https://github.com/MantleFramework/Mantle.git
+[submodule "Libraries/CRGradientNavigationBar"]
+	path = Libraries/CRGradientNavigationBar
+	url = https://github.com/chroman/CRGradientNavigationBar.git
