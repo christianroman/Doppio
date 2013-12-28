@@ -4,3 +4,9 @@
 [submodule "Libraries/CRGradientNavigationBar"]
 	path = Libraries/CRGradientNavigationBar
 	url = https://github.com/chroman/CRGradientNavigationBar.git
+[submodule "AFNetworking"]
+	path = Libraries/AFNetworking
+	url = https://github.com/AFNetworking/AFNetworking.git
+[submodule "Libraries/MRProgress"]
+	path = Libraries/MRProgress
+	url = https://github.com/mrackwitz/MRProgress
