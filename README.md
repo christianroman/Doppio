@@ -4,7 +4,7 @@ An open source iOS app to find the nearest Starbucks store using NSURLSession, [
 
 ![Doppio-main](http://chroman.me/wp-content/uploads/2013/12/1.png)
 
-![Doppio-main2](http://chroman.me/wp-content/uploads/2013/12/2.png)
+![Doppio-main2](http://chroman.me/wp-content/uploads/2013/12/3.png)
 
 Requirements
 ----------
