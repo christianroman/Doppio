@@ -93,7 +93,9 @@
     if (self.store.features && ![self.store.features isEqualToString:@""]) {
         [self.featuresLabel setHidden:NO];
         [self.featuresLabelValue setHidden:NO];
-        [self.featuresLabelValue setText:self.store.features];
+        
+        NSString *features = [self.store.features stringByReplacingOccurrencesOfString:@"," withString:@" "];
+        [self.featuresLabelValue setText:features];
     }
     
     [self.openNowLabel.layer setCornerRadius:3.0f];
