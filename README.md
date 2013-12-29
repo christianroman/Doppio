@@ -1,6 +1,6 @@
 Doppio
 =======================
-An open source iOS app to find the nearest Starbucks stores using NSURLSession, [AFNetworking 2.0][4], [Mantle][5] and Starbucks private API. App store coming soon.
+An open source iOS app to find the nearest Starbucks store using NSURLSession, [AFNetworking 2.0][4], [Mantle][5] and Starbucks private API. App store coming soon.
 
 ![Doppio-main](http://chroman.me/wp-content/uploads/2013/12/doppio1.png)
 
