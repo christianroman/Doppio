@@ -10,6 +10,11 @@ Requirements
 ----------
 * iOS 7.0 or higher
 * ARC
+* Frameworks:
+    * Core Location
+    * MapKit
+    * Quartz Core
+    * UIKit
 
 ## License
 Doppio is released under the MIT license.
