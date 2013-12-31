@@ -16,10 +16,16 @@ Requirements
     * Quartz Core
     * UIKit
 
+Credits
+----------
+* [AFNetworking 2.0][4]
+* [Mantle][5]
+* [MRProgress][6]
+
 ## License
 Doppio is released under the MIT license.
 
-Copyright (c) 2012 Christian H. Roman Mendoza
+Copyright (c) 2013 Christian H. Roman Mendoza
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -55,3 +61,4 @@ Twitter: [http://twitter.com/chroman][3]
   [3]: http://twitter.com/chroman
   [4]: https://github.com/AFNetworking/AFNetworking
   [5]: https://github.com/MantleFramework/Mantle
+  [6]: https://github.com/mrackwitz/MRProgress
