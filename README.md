@@ -10,8 +10,8 @@ The app demonstrates how to use MapKit, Core Location, AFNetworking 2.0 and Mant
 
 Requirements
 ----------
-* iOS 7.0 or higher
-* ARC
+* iOS 7.0 or higher.
+* ARC.
 * Frameworks:
     * Core Location
     * MapKit
