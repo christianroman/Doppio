@@ -29,7 +29,6 @@ Credits
 ## License
 Doppio is released under the BSD License.
 
----------------------------------------
 Copyright (c) 2012, Christian H. Roman Mendoza
 
 All rights reserved.
