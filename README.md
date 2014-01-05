@@ -8,6 +8,8 @@ The app demonstrates how to use MapKit, Core Location, AFNetworking 2.0 and Mant
 
 ![Doppio-main2](http://chroman.me/wp-content/uploads/2013/12/3.png)
 
+(More on [Behance][7])
+
 Requirements
 ----------
 * iOS 7.0 or higher.
@@ -70,3 +72,4 @@ Twitter: [http://twitter.com/chroman][3]
   [4]: https://github.com/AFNetworking/AFNetworking
   [5]: https://github.com/MantleFramework/Mantle
   [6]: https://github.com/mrackwitz/MRProgress
+  [7]: https://www.behance.net/gallery/Doppio/13512309
