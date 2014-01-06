@@ -94,6 +94,7 @@
         [annotation setTitle:store.name];
         [annotation setSubtitle:store.address1];
         [annotation setIsOpen:[store.openNow boolValue]];
+        [annotation setIndex:[self.stores indexOfObject:store]];
         CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake([store.lat doubleValue], [store.lng doubleValue]);
         [annotation setCoordinate:coordinate];
         [self.mapView addAnnotation:annotation];
@@ -436,13 +437,15 @@
     
     StoreAnnotation *ann = (StoreAnnotation *)annotation;
     
-    [annotationView setPinColor:MKPinAnnotationColorGreen];
+    BOOL isOpen = ann.isOpen;
     
-    UIImage *leftImage = [UIImage circleImageWithSize:32 color: ann.isOpen ? self.navigationController.view.tintColor : [UIColor lightGrayColor]];
+    [annotationView setImage:[UIImage imageNamed: isOpen ? @"pinOn" : @"pinOff"]];
+    
+    UIImage *leftImage = [UIImage circleImageWithSize:32 color: isOpen ? self.navigationController.view.tintColor : [UIColor lightGrayColor]];
     UIImageView *leftIconView = [[UIImageView alloc] initWithImage:leftImage];
     
     annotationView.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
-    annotationView.centerOffset = CGPointMake(0, - (annotationView.image.size.height / 2));
+    //annotationView.centerOffset = CGPointMake(0, - (annotationView.image.size.height / 2));
     annotationView.leftCalloutAccessoryView = leftIconView;
     
     return annotationView;

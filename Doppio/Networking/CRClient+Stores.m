@@ -21,7 +21,7 @@
     NSParameterAssert(longitude);
     
     NSDictionary *parameters = @{
-                                 @"languagePreference" : @"es",
+                                 @"languagePreference" : @"en",
                                  @"detailLevel": @2,
                                  @"format" : @"json",
                                  @"radius" : @10,

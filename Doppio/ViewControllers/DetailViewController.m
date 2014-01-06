@@ -26,7 +26,7 @@
 @property (nonatomic, weak) IBOutlet UILabel *openNowLabel;
 @property (nonatomic, weak) IBOutlet UILabel *phoneLabel;
 @property (nonatomic, weak) IBOutlet UILabel *featuresLabel;
-@property (nonatomic, weak) IBOutlet UILabel *phoneLabelValue;
+@property (nonatomic, weak) IBOutlet UIButton *phoneButtonValue;
 @property (nonatomic, weak) IBOutlet UILabel *featuresLabelValue;
 
 @property (nonatomic, weak) UIButton *userLocationButton;
@@ -75,15 +75,16 @@
     
     if (self.store.phone && ![self.store.phone isEqualToString:@""]) {
         [self.phoneLabel setHidden:NO];
-        [self.phoneLabelValue setHidden:NO];
-         [self.phoneLabelValue setText:self.store.phone];
+        [self.phoneButtonValue setHidden:NO];
+        [self.phoneButtonValue setEnabled:YES];
+         [self.phoneButtonValue setTitle:self.store.phone forState:UIControlStateNormal];
     } else if (self.store.features && ![self.store.features isEqualToString:@""]) {
         
         CGRect featuresFrame = self.featuresLabel.frame;
         CGRect featuresValueFrame = self.featuresLabelValue.frame;
         
         featuresFrame.origin.y = self.phoneLabel.frame.origin.y;
-        featuresValueFrame.origin.y = self.phoneLabelValue.frame.origin.y;
+        featuresValueFrame.origin.y = self.phoneButtonValue.frame.origin.y;
         
         [self.featuresLabel setFrame:featuresFrame];
         [self.featuresLabelValue setFrame:featuresValueFrame];
@@ -94,7 +95,7 @@
         [self.featuresLabel setHidden:NO];
         [self.featuresLabelValue setHidden:NO];
         
-        NSString *features = [self.store.features stringByReplacingOccurrencesOfString:@"," withString:@" "];
+        NSString *features = [self.store.features stringByReplacingOccurrencesOfString:@"," withString:@", "];
         [self.featuresLabelValue setText:features];
     }
     
@@ -126,6 +127,14 @@
 }
 
 #pragma mark - Class methods
+
+- (IBAction)tapPhoneNumber:(id)sender
+{
+    if (![self.phoneButtonValue.currentTitle isEqualToString:@""]) {
+        NSString *url = [NSString stringWithFormat:@"%@%@", @"tel://", self.phoneButtonValue.currentTitle];
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
+    }
+}
 
 - (void)openMapView
 {
@@ -288,9 +297,11 @@
     
     StoreAnnotation *ann = (StoreAnnotation *)annotation;
     
-    [annotationView setPinColor:MKPinAnnotationColorGreen];
+    BOOL isOpen = ann.isOpen;
     
-    UIImage *leftImage = [UIImage circleImageWithSize:32 color: ann.isOpen ? self.navigationController.view.tintColor : [UIColor lightGrayColor]];
+    [annotationView setImage:[UIImage imageNamed: isOpen ? @"pinOn" : @"pinOff"]];
+    
+    UIImage *leftImage = [UIImage circleImageWithSize:32 color: isOpen ? self.navigationController.view.tintColor : [UIColor lightGrayColor]];
     UIImageView *leftIconView = [[UIImageView alloc] initWithImage:leftImage];
     
     annotationView.centerOffset = CGPointMake(0, - (annotationView.image.size.height / 2));

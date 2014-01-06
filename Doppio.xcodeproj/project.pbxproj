@@ -23,6 +23,10 @@
 		22469271186040B5005878A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22469259186040B5005878A3 /* UIKit.framework */; };
 		22469279186040B5005878A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22469277186040B5005878A3 /* InfoPlist.strings */; };
 		2246927B186040B5005878A3 /* Coffee_MeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2246927A186040B5005878A3 /* Coffee_MeTests.m */; };
+		224E909E187B387800B99497 /* pinOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 224E909A187B387800B99497 /* pinOff.png */; };
+		224E909F187B387800B99497 /* pinOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224E909B187B387800B99497 /* pinOff@2x.png */; };
+		224E90A0187B387800B99497 /* pinOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 224E909C187B387800B99497 /* pinOn.png */; };
+		224E90A1187B387800B99497 /* pinOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224E909D187B387800B99497 /* pinOn@2x.png */; };
 		2268E70C1860439100E4D4FF /* libMantle-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2268E7051860436900E4D4FF /* libMantle-iOS.a */; };
 		2268E7391860E8EA00E4D4FF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2268E7381860E8EA00E4D4FF /* SystemConfiguration.framework */; };
 		2268E73B1860E8F500E4D4FF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2268E73A1860E8F500E4D4FF /* MobileCoreServices.framework */; };
@@ -145,6 +149,10 @@
 		22469276186040B5005878A3 /* DoppioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoppioTests-Info.plist"; sourceTree = "<group>"; };
 		22469278186040B5005878A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2246927A186040B5005878A3 /* Coffee_MeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coffee_MeTests.m; sourceTree = "<group>"; };
+		224E909A187B387800B99497 /* pinOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinOff.png; sourceTree = "<group>"; };
+		224E909B187B387800B99497 /* pinOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pinOff@2x.png"; sourceTree = "<group>"; };
+		224E909C187B387800B99497 /* pinOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinOn.png; sourceTree = "<group>"; };
+		224E909D187B387800B99497 /* pinOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pinOn@2x.png"; sourceTree = "<group>"; };
 		2268E6F41860432500E4D4FF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		2268E6F61860436800E4D4FF /* Mantle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Mantle.xcodeproj; path = Mantle/Mantle.xcodeproj; sourceTree = "<group>"; };
 		2268E7381860E8EA00E4D4FF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -516,6 +524,10 @@
 		22B1DD101867D81700E1F3A3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				224E909A187B387800B99497 /* pinOff.png */,
+				224E909B187B387800B99497 /* pinOff@2x.png */,
+				224E909C187B387800B99497 /* pinOn.png */,
+				224E909D187B387800B99497 /* pinOn@2x.png */,
 				226F32DD186F58BE0028B1DF /* logo.png */,
 				226F32DE186F58BE0028B1DF /* logo@2x.png */,
 				22DE22A8186B75D400D19511 /* background.png */,
@@ -669,15 +681,19 @@
 				22469268186040B5005878A3 /* Images.xcassets in Resources */,
 				222FEB7E1868CEA400B88780 /* userLocation.png in Resources */,
 				22C8071A186F8C0E00EC4D8E /* MainViewController.xib in Resources */,
+				224E90A1187B387800B99497 /* pinOn@2x.png in Resources */,
 				226F32DF186F58BE0028B1DF /* logo.png in Resources */,
 				22C8071C186F8C0E00EC4D8E /* StoresViewController.xib in Resources */,
 				22DE22A7186B5DDD00D19511 /* search@2x.png in Resources */,
 				22DE22AA186B75D400D19511 /* background.png in Resources */,
+				224E909E187B387800B99497 /* pinOff.png in Resources */,
 				222FEB7F1868CEA400B88780 /* userLocation@2x.png in Resources */,
 				226F32E0186F58BE0028B1DF /* logo@2x.png in Resources */,
+				224E909F187B387800B99497 /* pinOff@2x.png in Resources */,
 				22DE22A6186B5DDD00D19511 /* search.png in Resources */,
 				222FEB9118693C9F00B88780 /* StoreCell.xib in Resources */,
 				22DE22AB186B75D400D19511 /* background@2x.png in Resources */,
+				224E90A0187B387800B99497 /* pinOn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
@@ -13,8 +13,8 @@
                 <outlet property="mapView" destination="oSa-Kp-GtW" id="ayf-JZ-gqa"/>
                 <outlet property="open24HrsTodayLabel" destination="Xmd-Ih-1rL" id="V57-Xh-dkz"/>
                 <outlet property="openNowLabel" destination="oaU-cR-34c" id="3mq-g1-K4Q"/>
+                <outlet property="phoneButtonValue" destination="8SP-0p-y7V" id="fll-4v-KH7"/>
                 <outlet property="phoneLabel" destination="0hX-vV-x85" id="heG-8R-Lca"/>
-                <outlet property="phoneLabelValue" destination="t3t-3j-ogV" id="5jB-Hv-Xev"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
         </placeholder>
@@ -76,13 +76,17 @@
                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00-000000" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="t3t-3j-ogV">
-                            <rect key="frame" x="0.0" y="138" width="280" height="25"/>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="8SP-0p-y7V">
+                            <rect key="frame" x="0.0" y="138" width="145" height="25"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                            <nil key="highlightedColor"/>
-                        </label>
+                            <state key="normal" title="00-000000">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="tapPhoneNumber:" destination="-1" eventType="touchUpInside" id="3RN-SR-PNq"/>
+                            </connections>
+                        </button>
                         <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Features" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" id="LGZ-Fb-m9E">
                             <rect key="frame" x="0.0" y="190" width="280" height="75"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
