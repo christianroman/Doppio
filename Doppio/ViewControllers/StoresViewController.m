@@ -445,7 +445,6 @@
     UIImageView *leftIconView = [[UIImageView alloc] initWithImage:leftImage];
     
     annotationView.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
-    //annotationView.centerOffset = CGPointMake(0, - (annotationView.image.size.height / 2));
     annotationView.leftCalloutAccessoryView = leftIconView;
     
     return annotationView;

@@ -304,7 +304,6 @@
     UIImage *leftImage = [UIImage circleImageWithSize:32 color: isOpen ? self.navigationController.view.tintColor : [UIColor lightGrayColor]];
     UIImageView *leftIconView = [[UIImageView alloc] initWithImage:leftImage];
     
-    annotationView.centerOffset = CGPointMake(0, - (annotationView.image.size.height / 2));
     annotationView.leftCalloutAccessoryView = leftIconView;
     
     return annotationView;
