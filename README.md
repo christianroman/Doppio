@@ -17,7 +17,7 @@ Installation
 or
 
 ```
-https://github.com/chroman/Doppio.git
+git clone https://github.com/chroman/Doppio.git
 cd Doppio/Libraries
 git submodule init
 git submodule update
