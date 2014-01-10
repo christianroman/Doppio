@@ -10,6 +10,19 @@ The app demonstrates how to use MapKit, Core Location, AFNetworking 2.0 and Mant
 
 (More on [Behance][7])
 
+Installation
+------------
+`git clone --recursive https://github.com/chroman/Doppio.git`
+
+or
+
+```
+https://github.com/chroman/Doppio.git
+cd Doppio/Libraries
+git submodule init
+git submodule update
+```
+
 Requirements
 ----------
 * iOS 7.0 or higher.
