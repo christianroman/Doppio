@@ -73,11 +73,11 @@ Contact me
 
 **Christian Roman**
   
-Website: [http://chroman.me][1]
+[http://chroman.me][1]
 
-Contact: [chroman16@gmail.com][2]
+[chroman16@gmail.com][2]
 
-Twitter: [http://twitter.com/chroman][3] 
+[@chroman][3] 
 
   [1]: http://chroman.me
   [2]: mailto:chroman16@gmail.com
