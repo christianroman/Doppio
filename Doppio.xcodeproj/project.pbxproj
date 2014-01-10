@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		222FEB7E1868CEA400B88780 /* userLocation.png in Resources */ = {isa = PBXBuildFile; fileRef = 222FEB7C1868CEA400B88780 /* userLocation.png */; };
 		222FEB7F1868CEA400B88780 /* userLocation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 222FEB7D1868CEA400B88780 /* userLocation@2x.png */; };
-		222FEB9118693C9F00B88780 /* StoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 222FEB9018693C9F00B88780 /* StoreCell.xib */; };
-		222FEB9418693E4B00B88780 /* StoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 222FEB9318693E4B00B88780 /* StoreCell.m */; };
 		22469256186040B5005878A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22469255186040B5005878A3 /* Foundation.framework */; };
 		22469258186040B5005878A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22469257186040B5005878A3 /* CoreGraphics.framework */; };
 		2246925A186040B5005878A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22469259186040B5005878A3 /* UIKit.framework */; };
@@ -73,6 +71,8 @@
 		22DE22A7186B5DDD00D19511 /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DE22A5186B5DDD00D19511 /* search@2x.png */; };
 		22DE22AA186B75D400D19511 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DE22A8186B75D400D19511 /* background.png */; };
 		22DE22AB186B75D400D19511 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DE22A9186B75D400D19511 /* background@2x.png */; };
+		538843401880B0B1007EC60D /* StoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5388433E1880B0B1007EC60D /* StoreCell.m */; };
+		538843411880B0B1007EC60D /* StoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5388433F1880B0B1007EC60D /* StoreCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,9 +130,6 @@
 /* Begin PBXFileReference section */
 		222FEB7C1868CEA400B88780 /* userLocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userLocation.png; sourceTree = "<group>"; };
 		222FEB7D1868CEA400B88780 /* userLocation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "userLocation@2x.png"; sourceTree = "<group>"; };
-		222FEB9018693C9F00B88780 /* StoreCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoreCell.xib; sourceTree = "<group>"; };
-		222FEB9218693E4B00B88780 /* StoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreCell.h; sourceTree = "<group>"; };
-		222FEB9318693E4B00B88780 /* StoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreCell.m; sourceTree = "<group>"; };
 		22469252186040B5005878A3 /* Doppio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doppio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22469255186040B5005878A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22469257186040B5005878A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -236,6 +233,9 @@
 		22DE22A5186B5DDD00D19511 /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
 		22DE22A8186B75D400D19511 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		22DE22A9186B75D400D19511 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		5388433D1880B0B1007EC60D /* StoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StoreCell.h; path = Doppio/Views/StoreCell.h; sourceTree = SOURCE_ROOT; };
+		5388433E1880B0B1007EC60D /* StoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoreCell.m; path = Doppio/Views/StoreCell.m; sourceTree = SOURCE_ROOT; };
+		5388433F1880B0B1007EC60D /* StoreCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StoreCell.xib; path = Doppio/Views/StoreCell.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -389,9 +389,9 @@
 		2268E70F1860D0CC00E4D4FF /* Views  */ = {
 			isa = PBXGroup;
 			children = (
-				222FEB9218693E4B00B88780 /* StoreCell.h */,
-				222FEB9318693E4B00B88780 /* StoreCell.m */,
-				222FEB9018693C9F00B88780 /* StoreCell.xib */,
+				5388433D1880B0B1007EC60D /* StoreCell.h */,
+				5388433E1880B0B1007EC60D /* StoreCell.m */,
+				5388433F1880B0B1007EC60D /* StoreCell.xib */,
 			);
 			path = "Views ";
 			sourceTree = "<group>";
@@ -683,6 +683,7 @@
 				22C8071A186F8C0E00EC4D8E /* MainViewController.xib in Resources */,
 				224E90A1187B387800B99497 /* pinOn@2x.png in Resources */,
 				226F32DF186F58BE0028B1DF /* logo.png in Resources */,
+				538843411880B0B1007EC60D /* StoreCell.xib in Resources */,
 				22C8071C186F8C0E00EC4D8E /* StoresViewController.xib in Resources */,
 				22DE22A7186B5DDD00D19511 /* search@2x.png in Resources */,
 				22DE22AA186B75D400D19511 /* background.png in Resources */,
@@ -691,7 +692,6 @@
 				226F32E0186F58BE0028B1DF /* logo@2x.png in Resources */,
 				224E909F187B387800B99497 /* pinOff@2x.png in Resources */,
 				22DE22A6186B5DDD00D19511 /* search.png in Resources */,
-				222FEB9118693C9F00B88780 /* StoreCell.xib in Resources */,
 				22DE22AB186B75D400D19511 /* background@2x.png in Resources */,
 				224E90A0187B387800B99497 /* pinOn.png in Resources */,
 			);
@@ -739,11 +739,11 @@
 				226F32D1186CF0D30028B1DF /* CRClient+Stores.m in Sources */,
 				226F32D0186CF0D30028B1DF /* CRClient+Requests.m in Sources */,
 				226F3283186CB6370028B1DF /* MRWeakProxy.m in Sources */,
+				538843401880B0B1007EC60D /* StoreCell.m in Sources */,
 				22B1DD201867F7CC00E1F3A3 /* StoreAnnotation.m in Sources */,
 				2268E7A018611C3100E4D4FF /* AFURLRequestSerialization.m in Sources */,
 				2268E79D18611C3100E4D4FF /* AFNetworkReachabilityManager.m in Sources */,
 				2268E76B1860FE7400E4D4FF /* Store.m in Sources */,
-				222FEB9418693E4B00B88780 /* StoreCell.m in Sources */,
 				226F327C186CB6370028B1DF /* UIImage+MRImageEffects.m in Sources */,
 				2268E79A18611C3100E4D4FF /* AFHTTPRequestOperation.m in Sources */,
 				2268E79C18611C3100E4D4FF /* AFHTTPSessionManager.m in Sources */,
