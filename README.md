@@ -68,6 +68,13 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 I would greatly appreciate it if you don't redistribute this app **exactly** (Same name, icon, etc.) the way it is in the App Store.
 
+Disclaimer
+----------
+This is an unofficial application and is not endorsed in any way by Starbucks.
+Doppio is an app that contains beverage and outlet details information that is available for public.
+The developers of this app are in no way affiliated with Starbucks.
+The products, company names and logos mentioned on this app are trademarks of their respective owners.
+
 Contact me
 ----------
 
