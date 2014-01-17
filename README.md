@@ -75,7 +75,7 @@ Doppio is an app that contains beverage and outlet details information that is a
 The developers of this app are in no way affiliated with Starbucks.
 The products, company names and logos mentioned on this app are trademarks of their respective owners.
 
-Contact me
+Contact
 ----------
 
 **Christian Roman**
