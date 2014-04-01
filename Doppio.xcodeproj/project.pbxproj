@@ -25,7 +25,6 @@
 		224E909F187B387800B99497 /* pinOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224E909B187B387800B99497 /* pinOff@2x.png */; };
 		224E90A0187B387800B99497 /* pinOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 224E909C187B387800B99497 /* pinOn.png */; };
 		224E90A1187B387800B99497 /* pinOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224E909D187B387800B99497 /* pinOn@2x.png */; };
-		2268E70C1860439100E4D4FF /* libMantle-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2268E7051860436900E4D4FF /* libMantle-iOS.a */; };
 		2268E7391860E8EA00E4D4FF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2268E7381860E8EA00E4D4FF /* SystemConfiguration.framework */; };
 		2268E73B1860E8F500E4D4FF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2268E73A1860E8F500E4D4FF /* MobileCoreServices.framework */; };
 		2268E75F1860ED4400E4D4FF /* UIColor+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 2268E75E1860ED4400E4D4FF /* UIColor+Utilities.m */; };
@@ -73,6 +72,7 @@
 		22DE22AB186B75D400D19511 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DE22A9186B75D400D19511 /* background@2x.png */; };
 		538843401880B0B1007EC60D /* StoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5388433E1880B0B1007EC60D /* StoreCell.m */; };
 		538843411880B0B1007EC60D /* StoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5388433F1880B0B1007EC60D /* StoreCell.xib */; };
+		71C7679518EABB460045659C /* libMantle-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C7679018EABAFF0045659C /* libMantle-iOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,47 +83,40 @@
 			remoteGlobalIDString = 22469251186040B5005878A3;
 			remoteInfo = "Coffee Me";
 		};
-		2268E7001860436900E4D4FF /* PBXContainerItemProxy */ = {
+		71C7678B18EABAFF0045659C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2268E6F61860436800E4D4FF /* Mantle.xcodeproj */;
+			containerPortal = 71C7678318EABAFE0045659C /* Mantle.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D042FC3C15F72B23004E8054;
 			remoteInfo = Mantle;
 		};
-		2268E7021860436900E4D4FF /* PBXContainerItemProxy */ = {
+		71C7678D18EABAFF0045659C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2268E6F61860436800E4D4FF /* Mantle.xcodeproj */;
+			containerPortal = 71C7678318EABAFE0045659C /* Mantle.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D042FC5415F72B23004E8054;
 			remoteInfo = "Mantle Tests";
 		};
-		2268E7041860436900E4D4FF /* PBXContainerItemProxy */ = {
+		71C7678F18EABAFF0045659C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2268E6F61860436800E4D4FF /* Mantle.xcodeproj */;
+			containerPortal = 71C7678318EABAFE0045659C /* Mantle.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D042FC7915F72BC7004E8054;
 			remoteInfo = "Mantle-iOS";
 		};
-		2268E7061860436900E4D4FF /* PBXContainerItemProxy */ = {
+		71C7679118EABAFF0045659C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2268E6F61860436800E4D4FF /* Mantle.xcodeproj */;
+			containerPortal = 71C7678318EABAFE0045659C /* Mantle.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D042FC8715F72BC7004E8054;
 			remoteInfo = "Mantle-iOS Tests";
 		};
-		2268E7081860436900E4D4FF /* PBXContainerItemProxy */ = {
+		71C7679318EABAFF0045659C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2268E6F61860436800E4D4FF /* Mantle.xcodeproj */;
+			containerPortal = 71C7678318EABAFE0045659C /* Mantle.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D0A56B461804B04900A84EDC;
 			remoteInfo = "Mantle-Mac";
-		};
-		2268E70A1860438400E4D4FF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2268E6F61860436800E4D4FF /* Mantle.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D042FC7815F72BC7004E8054;
-			remoteInfo = "Mantle-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -151,7 +144,6 @@
 		224E909C187B387800B99497 /* pinOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinOn.png; sourceTree = "<group>"; };
 		224E909D187B387800B99497 /* pinOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pinOn@2x.png"; sourceTree = "<group>"; };
 		2268E6F41860432500E4D4FF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		2268E6F61860436800E4D4FF /* Mantle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Mantle.xcodeproj; path = Mantle/Mantle.xcodeproj; sourceTree = "<group>"; };
 		2268E7381860E8EA00E4D4FF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		2268E73A1860E8F500E4D4FF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		2268E75D1860ED4400E4D4FF /* UIColor+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utilities.h"; sourceTree = "<group>"; };
@@ -236,6 +228,7 @@
 		5388433D1880B0B1007EC60D /* StoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StoreCell.h; path = Doppio/Views/StoreCell.h; sourceTree = SOURCE_ROOT; };
 		5388433E1880B0B1007EC60D /* StoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoreCell.m; path = Doppio/Views/StoreCell.m; sourceTree = SOURCE_ROOT; };
 		5388433F1880B0B1007EC60D /* StoreCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StoreCell.xib; path = Doppio/Views/StoreCell.xib; sourceTree = SOURCE_ROOT; };
+		71C7678318EABAFE0045659C /* Mantle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Mantle.xcodeproj; path = Mantle/Mantle.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,7 +236,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2268E70C1860439100E4D4FF /* libMantle-iOS.a in Frameworks */,
+				71C7679518EABB460045659C /* libMantle-iOS.a in Frameworks */,
 				22B1DD1D1867F47D00E1F3A3 /* MapKit.framework in Frameworks */,
 				22B1DD1B1867DF6600E1F3A3 /* CoreLocation.framework in Frameworks */,
 				2268E73B1860E8F500E4D4FF /* MobileCoreServices.framework in Frameworks */,
@@ -355,21 +348,9 @@
 				226F3263186CB6360028B1DF /* MRProgress */,
 				2268E78618611C3100E4D4FF /* AFNetworking */,
 				2268E7601860F87300E4D4FF /* CRGradientNavigationBar */,
-				2268E6F61860436800E4D4FF /* Mantle.xcodeproj */,
+				71C7678318EABAFE0045659C /* Mantle.xcodeproj */,
 			);
 			path = Libraries;
-			sourceTree = "<group>";
-		};
-		2268E6F71860436800E4D4FF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2268E7011860436900E4D4FF /* Mantle.framework */,
-				2268E7031860436900E4D4FF /* Mantle Tests.octest */,
-				2268E7051860436900E4D4FF /* libMantle-iOS.a */,
-				2268E7071860436900E4D4FF /* Mantle-iOS Tests.octest */,
-				2268E7091860436900E4D4FF /* libMantle-Mac.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		2268E70E1860D0CC00E4D4FF /* Models */ = {
@@ -556,6 +537,18 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		71C7678418EABAFE0045659C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71C7678C18EABAFF0045659C /* Mantle.framework */,
+				71C7678E18EABAFF0045659C /* Mantle Tests.octest */,
+				71C7679018EABAFF0045659C /* libMantle-iOS.a */,
+				71C7679218EABAFF0045659C /* Mantle-iOS Tests.octest */,
+				71C7679418EABAFF0045659C /* libMantle-Mac.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -570,7 +563,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				2268E70B1860438400E4D4FF /* PBXTargetDependency */,
 			);
 			name = Doppio;
 			productName = "Coffee Me";
@@ -621,8 +613,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 2268E6F71860436800E4D4FF /* Products */;
-					ProjectRef = 2268E6F61860436800E4D4FF /* Mantle.xcodeproj */;
+					ProductGroup = 71C7678418EABAFE0045659C /* Products */;
+					ProjectRef = 71C7678318EABAFE0045659C /* Mantle.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -634,39 +626,39 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		2268E7011860436900E4D4FF /* Mantle.framework */ = {
+		71C7678C18EABAFF0045659C /* Mantle.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Mantle.framework;
-			remoteRef = 2268E7001860436900E4D4FF /* PBXContainerItemProxy */;
+			remoteRef = 71C7678B18EABAFF0045659C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2268E7031860436900E4D4FF /* Mantle Tests.octest */ = {
+		71C7678E18EABAFF0045659C /* Mantle Tests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "Mantle Tests.octest";
-			remoteRef = 2268E7021860436900E4D4FF /* PBXContainerItemProxy */;
+			remoteRef = 71C7678D18EABAFF0045659C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2268E7051860436900E4D4FF /* libMantle-iOS.a */ = {
+		71C7679018EABAFF0045659C /* libMantle-iOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libMantle-iOS.a";
-			remoteRef = 2268E7041860436900E4D4FF /* PBXContainerItemProxy */;
+			remoteRef = 71C7678F18EABAFF0045659C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2268E7071860436900E4D4FF /* Mantle-iOS Tests.octest */ = {
+		71C7679218EABAFF0045659C /* Mantle-iOS Tests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "Mantle-iOS Tests.octest";
-			remoteRef = 2268E7061860436900E4D4FF /* PBXContainerItemProxy */;
+			remoteRef = 71C7679118EABAFF0045659C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2268E7091860436900E4D4FF /* libMantle-Mac.a */ = {
+		71C7679418EABAFF0045659C /* libMantle-Mac.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libMantle-Mac.a";
-			remoteRef = 2268E7081860436900E4D4FF /* PBXContainerItemProxy */;
+			remoteRef = 71C7679318EABAFF0045659C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -765,11 +757,6 @@
 			isa = PBXTargetDependency;
 			target = 22469251186040B5005878A3 /* Doppio */;
 			targetProxy = 22469272186040B5005878A3 /* PBXContainerItemProxy */;
-		};
-		2268E70B1860438400E4D4FF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Mantle-iOS";
-			targetProxy = 2268E70A1860438400E4D4FF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
