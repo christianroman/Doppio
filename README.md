@@ -19,6 +19,8 @@ open Doppio.xcworkspace
 
 Requirements
 ----------
+* Xcode 5.1
+* Cocoapods
 * iOS 7.0 or higher.
 * ARC.
 * Frameworks:
