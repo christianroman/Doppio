@@ -1,8 +1,8 @@
 Doppio
 =======================
-An open source iOS app to find the nearest Starbucks store using NSURLSession, [AFNetworking 2.0][4], [Mantle][5] and Starbucks private API.
+An open source iOS app to find the nearest Starbucks store using NSURLSession, [AFNetworking 2.3][4], [Mantle][5] and Starbucks private API.
 
-The app demonstrates how to use MapKit, Core Location, AFNetworking 2.0 and Mantle frameworks.
+The app demonstrates how to use MapKit, Core Location, AFNetworking 2.3 and Mantle frameworks.
 
 ![Doppio-main](http://chroman.me/wp-content/uploads/2013/12/1.png)
 
@@ -12,15 +12,9 @@ The app demonstrates how to use MapKit, Core Location, AFNetworking 2.0 and Mant
 
 Installation
 ------------
-`git clone --recursive https://github.com/chroman/Doppio.git`
-
-or
-
 ```
-git clone https://github.com/chroman/Doppio.git
-cd Doppio/Libraries
-git submodule init
-git submodule update
+pod install
+open Doppio.xcworkspace
 ```
 
 Requirements
