@@ -532,10 +532,7 @@
 				);
 				INFOPLIST_FILE = "Doppio/Doppio-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/chroman/Desktop/Coffee\\ Me/Libraries/Mantle/MantleTests/specta/test/vendor/expecta",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Doppio;
 				WRAPPER_EXTENSION = app;
@@ -562,10 +559,7 @@
 				);
 				INFOPLIST_FILE = "Doppio/Doppio-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/chroman/Desktop/Coffee\\ Me/Libraries/Mantle/MantleTests/specta/test/vendor/expecta",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Doppio;
 				WRAPPER_EXTENSION = app;
